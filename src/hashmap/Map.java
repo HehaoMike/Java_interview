@@ -13,7 +13,7 @@ public interface Map<K,V>{
 
   public  interface  Entry<K,V>{
 
-      public V getKey();
+      public K getKey();
       public V getValue();
   }
 
