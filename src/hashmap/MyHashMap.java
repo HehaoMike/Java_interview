@@ -5,6 +5,7 @@ public class MyHashMap<K,V> implements Map<K,V>{
     private Entry<K,V> table =null;
     private static int defalutLenth =16;
     private int size = 0;
+    private  int age;
     @Override
     public V put(K k, V v) {
         return null;
